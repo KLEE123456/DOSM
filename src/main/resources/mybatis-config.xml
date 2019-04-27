@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--为类取别名 -->
+    <typeAliases>
+        <package name="com.klee.DOSM.pojo" />
+    </typeAliases>
+
+    <!-- 引入映射 -->
+  <!-- <mappers>
+      &lt;!&ndash;  <mapper resource="com/klee/DOSM/mapper/ProductMapper.xml"/>&ndash;&gt;
+        <package name="com.klee.DOSM.mapper"/>
+    </mappers>-->
+</configuration>
